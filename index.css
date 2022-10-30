@@ -1,0 +1,21 @@
+body{
+    background-color: beige;
+    color: #1E1F35;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#k{
+    text-align: center;
+    color: darkblue;
+    text-decoration-style: dotted;
+}
+
+#cont
+{
+    margin:10%
+}
+
+#row{
+    background-color: beige;
+}
