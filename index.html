@@ -12,54 +12,54 @@
 
     <div class="container-fluid">
         <div class="row" id="row">
-                <h4>
-                    Git init
-                </h4>  
+                <h2>
+                    git init
+                </h2>  
                 <p>
-                    Git init is used to create a local repository on your machine. The consequence of git init is that a .git folder that is your local repository is created in your current working directory.
+                    git init is used to create a local repository on your machine. The consequence of git init is that a .git folder that is your local repository is created in your current working directory.
                 </p>      
                 <img src="./resources/git init.png" class="img-fluid" >  
         </div>  
         <div class="row" id="row">
-            <h4>
-                Git Add
-            </h4>
+            <h2>
+                git add
+            </h2>
             <p>
-                =>Git Add .  for all files in current folder<br>
-                =>Git Add *  for all files in your project<br><br>
-                The git add command adds a change in the working directory to the staging area. It tells Git that you want to include
+                =>git add .  for all files in current folder<br>
+                =>git add *  for all files in your project<br><br>
+                The git add command adds a change in the working directory to the staging area. It tells git that you want to include
                 updates to a particular file in the next commit. However, git add doesn't really affect the repository in any
                 significant way—changes are not actually recorded until you run git commit .
             </p>
             <img src="./resources/git add.png" class="img-fluid">
         </div>
         <div class="row" id="row">
-            <h4>
-                Git Status
-            </h4>
+            <h2>
+                git status
+            </h2>
             <p>
                 The git status command displays the state of the working directory and the staging area. It lets you see which changes
-                have been staged, which haven't, and which files aren't being tracked by Git. Status output does not show you any
+                have been staged, which haven't, and which files aren't being tracked by git. Status output does not show you any
                 information regarding the committed project history.
             </p>
             <img src="./resources/git status.png" class="img-fluid">
         </div>
         <div class="row" id="row">
-            <h4>
-                Git Commit
-            </h4>
+            <h2>
+                git commit
+            </h2>
             <p>
                 => git commit -m "msg" <br>
                 <br>
-                Git Commit commits the changes to your local repository, which means that all the changes you have made and added in the staging area through git add can now be finally applied to local repository, -m option should always be used with git commit to tell about the nature and description of commit action. It can be a message.
+                git Commit commits the changes to your local repository, which means that all the changes you have made and added in the staging area through git add can now be finally applied to local repository, -m option should always be used with git commit to tell about the nature and description of commit action. It can be a message.
             </p>
             <img src="./resources/git commit.png" class="img-fluid">
         </div>
 
         <div class="row" id="row">
-            <h4>
-                Git Help
-            </h4>
+            <h2>
+                git help
+            </h2>
             <p>
                 => git help --all
                 => git command help<br>
@@ -70,9 +70,9 @@
         </div>
 
         <div class="row" id="row">
-            <h4>
-                Branches in Git
-            </h4>
+            <h2>
+                Branches in git
+            </h2>
             <p>
                 Branches in git are used for independent line of development. They are very useful for collaborative work. They are helpful when for example 5 people are working on a company's highly important software and each of them are working independently, if one developer's code has some error it will cause the whole system to crash, to avoid this each of them developers work on different branches of that project when their branch work has been succesfully tested then they can "merge" their work to the "main branch" that is the base project.
             </p>
@@ -81,9 +81,9 @@
 
 
         <div class="row" id="row">
-            <h3>
+            <h2>
                 git branch
-            </h3>
+            </h2>
             <p>
                 This command will show all the branches in your repository and the current branch will be starred.
             </p>
@@ -91,14 +91,25 @@
         </div>
 
         <div class="row" id="row">
-            <h3>
+            <h2>
                 git branch newBranchName
-            </h3>
+            </h2>
             <p>
                 This command will create a new branch with the given name.
             </p>
-            <img src="./resources/git new branch.png.png" class="img-fluid">
+            <img src="./resources/git new branch.png" class="img-fluid">
         </div>
+
+        <div class="row" id="row">
+            <h2>
+                git checkout BranchName
+            </h2>
+            <p>
+                This command will change the current branch to the branch named as BranchName. You should commit the changes in your current branch before using this command.
+            </p>
+            <img src="./resources/git new branch.png" class="img-fluid">
+        </div>
+        
         
 
 
