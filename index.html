@@ -131,6 +131,50 @@
             </p>
             <img src="./resources/git merge.png" class="img-fluid">
         </div>
+
+        <div class="row" id="row">
+            <h2>
+                Merge Conflict
+            </h2>
+            <p>
+                Suppose there are two branches master and b2,
+                Both have a file suppose index.html, which is similar in both. A
+                developer on master branch edit line#25 of index.html and do a commit.
+                Another developer on b2 edit line#50 of index.html and do a commit
+                Now if you merge, it will be a success, because both have made changes to same
+                file, but to different lines.
+                <br>
+                <br>
+                However, if both the developers have made changes to same line or set of
+                lines a conflict will occur, which git cannot handle and it will give a
+                message that auto-merging failed.
+                <br>
+                In case of a merge conflict we have
+                three choices to resolve the conflict:
+                <br>
+                <ul>
+                    <li>
+                        Abort merge:
+                         git merge --abort
+                    </li>
+                    <li>
+                        Resolve manually:
+                        Open the file in some editor and perform the changes manually, add,
+                        commit, and f inally perform merge
+                    </li>
+                    <li>
+                        git merge <branchname>
+                            Use merge tools:
+                            You can use different tools to automate this process like araxis,
+                            diffuse, kdiff3, xxdiff, diffmerge
+                            $ git mergetool --tool=diffuse
+                    </li>
+                </ul>
+                <br>
+                We will be resolving this manually.
+            </p>
+            <img src="./resources/git merge.png" class="img-fluid">
+        </div>
         
         
 
