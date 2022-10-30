@@ -7,13 +7,15 @@ body{
 
 #k{
     text-align: center;
-    color: darkblue;
+    color: #1E1F35;
     text-decoration-style: dotted;
 }
 
 #cont
 {
-    margin:10%
+    margin:10%;
+    border: groove black 5px;
+    padding:2%;
 }
 
 #row{
